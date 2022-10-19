@@ -2,8 +2,8 @@ const suma = (a,b) =>{
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código
-    let z = a + b;
-    return z;
+    let suma = a + b
+    return suma;
     
 }
 
