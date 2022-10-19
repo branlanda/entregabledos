@@ -177,7 +177,7 @@ function tienenMismaLongitud(str1, str2) {
   
 const usuarios = [
   {
-    nombre: 'Martin',
+    nombre: 'Brandon',
     esPremium: false
   },
   {
@@ -185,7 +185,7 @@ const usuarios = [
     esPremium: false
   },
   {
-    nombre: 'Paco',
+    nombre: 'Carlos',
     esPremium: false
   }
 ]
