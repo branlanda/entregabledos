@@ -38,12 +38,15 @@ function tienenMismaLongitud(str1, str2) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if(numero > 0){
-      return "Es positivo";
+    pos = 'Es positivo';
+    neg = 'Es negativo';
+    fal = false
+    if (numero > 0) {
+      return pos;
     }else if(numero < 0){
-      return "Es negativo";
-    }else if(numero == 0){
-      return false;  
+      return neg;
+    }else{
+      return fal;
     } 
   }
     
@@ -81,16 +84,18 @@ function tienenMismaLongitud(str1, str2) {
     // Si "numero" es divisible entre 5, devuelve "buzz"
     // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
     // De lo contrario, devuelve el numero
-    if(numero % 3 === 0 && numero % 5 === 0 ){
+  function divisible(numero) {
+  if (numero % 3 === 0 && numero % 5 === 0) {
       return "fizzbuzz";
-    }else if(numero % 3 === 0){
+    } else if (numero % 5 === 0) {
+        return "buzz";
+    } else if (numero % 3 === 0) {
       return "fizz";
-    }else if(numero % 5 === 0){
-      return "buzz";
-    }else{
-      return (numero);
-    }
+  } else {
+    return numero;
   }
+}
+
   
 
   const devolverPrimerElemento = (array) => {
