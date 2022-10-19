@@ -63,19 +63,19 @@ function tienenMismaLongitud(str1, str2) {
     //Usar el statement Switch.
   switch(color){
     case "blue":
-      return "This is blue"
+      return "Este es azul"
       break;
     case "red":
-      return "This is red"
+      return "Este es rojo"
       break;
     case "greeen":
-      return "This is green"
+      return "Este es verde"
       break;
     case "orange":
-      return "This is orange"
+      return "Este es naranja"
       break;
     default:
-      return "Color not found"
+      return "No encontre color"
   }
 }
   
