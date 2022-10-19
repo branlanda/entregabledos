@@ -175,7 +175,29 @@ function tienenMismaLongitud(str1, str2) {
     return usuarios;
   }
   
+const usuarios = [
+  {
+    nombre: 'Martin',
+    esPremium: false
+  },
+  {
+    nombre: 'Julian',
+    esPremium: false
+  },
+  {
+    nombre: 'Paco',
+    esPremium: false
+  }
+]
 
+const createPremiumUsers = users => {
+  users.map( u => u.esPremium = true)
+  console.log(users)
+}
+
+createPremiumUsers(usuarios)
+      
+      
   const sumarLikesDeUsuario = usuario => {
     // "usuario" tiene una propiedad llamada "posts" que es un array
     // "posts" es un array de objetos "post"
