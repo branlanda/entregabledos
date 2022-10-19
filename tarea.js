@@ -113,7 +113,6 @@ function tienenMismaLongitud(str1, str2) {
     // Tu código:
         function Practica(opciones){
        this.nombre = opciones.nombre;
-       this.usuario = opciones.usuario;
        this.email = opciones.email;
        this.password = opciones.password;
   }
