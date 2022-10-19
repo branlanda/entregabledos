@@ -260,7 +260,6 @@ const crearInstanciaPersona = (nombre, apellido, edad, dir)=>{
     return persona;
   }
 
-    
 
 
 const sumarArray = (numeros, cb) =>{
