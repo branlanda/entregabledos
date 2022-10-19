@@ -57,15 +57,23 @@ function tienenMismaLongitud(str1, str2) {
     //En caso que el color recibido sea "orange", devuelve --> "This is orange"
     //Caso default: devuelve --> "Color not found"
     //Usar el statement Switch.
-    switch(color){
-      case 'blue': return  'This is blue';
-      case 'red': return  'This is red';
-      case 'green': return 'This is green';
-      case 'orange': return 'This is orange';
-      default: return 'Color not found';
-    }
+  switch(color){
+    case "blue":
+      return "This is blue"
+      break;
+    case "red":
+      return "This is red"
+      break;
+    case "greeen":
+      return "This is green"
+      break;
+    case "orange":
+      return "This is orange"
+      break;
+    default:
+      return "Color not found"
   }
-    
+}
   
 
   const fizzBuzz = (numero)  => {
@@ -103,7 +111,18 @@ function tienenMismaLongitud(str1, str2) {
     // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
     // Devuelve el objeto
     // Tu código:
+        function Practica(opciones){
+       this.nombre = opciones.nombre;
+       this.usuario = opciones.usuario;
+       this.email = opciones.email;
+       this.password = opciones.password;
   }
+  Practica.prototype.saludar = function() {
+    return 'Hola, mi nombre es ' + this.nombre;
+  }
+  return Practica;
+}
+  
 
   const verificarPassword = (usuario, password) => {
     // Comprueba si el "password" enviado coincide con la propiedad "password" del objeto "usuario"
